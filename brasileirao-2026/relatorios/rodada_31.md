@@ -1,5 +1,5 @@
 # Brasileirão 2026 · Rodada 31
-_Gerado em 18/10/2026 15:18 (Brasília). Base: 304 jogos com placar._
+_Gerado em 18/10/2026 15:43 (Brasília). Base: 304 jogos com placar._
 
 ## Já disputados nesta rodada
 
@@ -11,13 +11,13 @@ _Gerado em 18/10/2026 15:18 (Brasília). Base: 304 jogos com placar._
 
 ## Faltam 5 jogos
 
-| Jogo | Quando | Casa | Empate | Fora | Placar provável | +2,5 gols | Ambos marcam |
-|---|---|---|---|---|---|---|---|
-| Bahia x Flamengo | dom 18/10 18:30 | 27% | 27% | 47% | 1-1 | 48% | 52% |
-| Fluminense x Santos | dom 18/10 16:00 | 55% | 24% | 21% | 1-1 | 52% | 53% |
-| Grêmio x Cruzeiro | dom 18/10 16:00 | 35% | 28% | 36% | 1-1 | 45% | 51% |
-| Remo x Bragantino | dom 18/10 19:30 | 38% | 28% | 34% | 1-1 | 46% | 52% |
-| Corinthians x Vitória | seg 19/10 20:00 | 50% | 28% | 22% | 1-0 | 41% | 45% |
+| Jogo | Quando | Casa | Empate | Fora | Placar provável | +2,5 gols | Ambos marcam | Escanteios esperados |
+|---|---|---|---|---|---|---|---|---|
+| Bahia x Flamengo | dom 18/10 18:30 | 27% | 27% | 47% | 1-1 | 48% | 52% | 5.7 x 4.5 |
+| Fluminense x Santos | dom 18/10 16:00 | 55% | 24% | 21% | 1-1 | 52% | 53% | 5.9 x 3.9 |
+| Grêmio x Cruzeiro | dom 18/10 16:00 | 35% | 28% | 36% | 1-1 | 45% | 51% | 4.7 x 4.4 |
+| Remo x Bragantino | dom 18/10 19:30 | 38% | 28% | 34% | 1-1 | 46% | 52% | 5.9 x 5.6 |
+| Corinthians x Vitória | seg 19/10 20:00 | 50% | 28% | 22% | 1-0 | 41% | 45% | 5.9 x 3.9 |
 
 Probabilidades do modelo Dixon-Coles. Leia com ceticismo: veja o backtest no README.
 
@@ -42,6 +42,7 @@ dom 18/10 18:30 · Arena Fonte Nova
 - **Confronto direto (desde 2024):** 21/06/24 Flamengo 2-1 Bahia; 05/10/24 Bahia 0-2 Flamengo; 11/05/25 Flamengo 1-0 Bahia; 05/10/25 Bahia 1-0 Flamengo; 19/04/26 Flamengo 2-0 Bahia
 - **Modelo:** gols esperados 1.08 x 1.52 · Bahia 27%, empate 27%, Flamengo 47% · placares mais prováveis: 1-1 (13%), 0-1 (11%), 1-2 (9%) · odd justa 3.77 / 3.74 / 2.14
 - **Mercado (DraftKings via ESPN, sem margem):** 29% / 26% / 45% · diferença modelo − mercado no mandante: -3 p.p.
+- **Escanteios:** esperados 5.7 x 4.5 (total 10.2) · mais escanteios: Bahia 57%, Flamengo 33% · +8.5: 65% (liga 69%) · +9.5: 54% (liga 57%) · +10.5: 44% (liga 43%) · +11.5: 34% (liga 34%). No backtest o total não bate a frequência da liga; o lado com mais escanteios ajuda um pouco.
 - **Desfalques/dúvidas Bahia (Cartola):** Léo Vieira (GOL, Contundido, 16J 0G 0A); Román Gómez (LAT, Dúvida, 14J 0G 0A); Marcos Victor (ZAG, Dúvida, 7J 0G 0A)
 - **Desfalques/dúvidas Flamengo (Cartola):** Arrascaeta (MEI, Contundido, 19J 3G 4A); Danilo (ZAG, Contundido, 11J 1G 0A); Saúl (MEI, Contundido, 10J 0G 1A)
 
@@ -66,6 +67,7 @@ dom 18/10 16:00 · Maracanã
 - **Confronto direto (desde 2024):** 13/04/25 Fluminense 1-0 Santos; 31/08/25 Santos 0-0 Fluminense; 19/04/26 Santos 2-3 Fluminense
 - **Modelo:** gols esperados 1.76 x 0.99 · Fluminense 55%, empate 24%, Santos 21% · placares mais prováveis: 1-1 (12%), 1-0 (11%), 2-0 (10%) · odd justa 1.83 / 4.09 / 4.82
 - **Mercado (DraftKings via ESPN, sem margem):** 44% / 27% / 29% · diferença modelo − mercado no mandante: +11 p.p.
+- **Escanteios:** esperados 5.9 x 3.9 (total 9.8) · mais escanteios: Fluminense 66%, Santos 25% · +8.5: 61% (liga 69%) · +9.5: 50% (liga 57%) · +10.5: 39% (liga 43%) · +11.5: 30% (liga 34%). No backtest o total não bate a frequência da liga; o lado com mais escanteios ajuda um pouco.
 - **Desfalques/dúvidas Fluminense (Cartola):** Hércules (MEI, Dúvida, 24J 3G 0A); Martinelli (MEI, Contundido, 21J 0G 3A); Soteldo (ATA, Dúvida, 20J 0G 2A); Guilherme Arana (LAT, Suspenso, 18J 1G 0A); John Kennedy (ATA, Contundido, 17J 9G 1A); Nonato (MEI, Dúvida, 16J 1G 1A)
 - **Desfalques/dúvidas Santos (Cartola):** Gabriel Brazão (GOL, Contundido, 22J 0G 0A); Barreal (MEI, Dúvida, 21J 4G 1A); Willian Arão (MEI, Contundido, 21J 1G 0A); Escobar (LAT, Dúvida, 21J 0G 1A); Oliva (MEI, Dúvida, 20J 2G 2A); Arthur Melo (MEI, Contundido, 13J 0G 0A)
 
@@ -90,6 +92,7 @@ dom 18/10 16:00 · Arena do Grêmio
 - **Confronto direto (desde 2024):** 10/07/24 Grêmio 0-2 Cruzeiro; 28/11/24 Cruzeiro 1-1 Grêmio; 14/07/25 Cruzeiro 4-1 Grêmio; 05/11/25 Grêmio 0-1 Cruzeiro; 18/04/26 Cruzeiro 2-0 Grêmio
 - **Modelo:** gols esperados 1.22 x 1.24 · Grêmio 35%, empate 28%, Cruzeiro 36% · placares mais prováveis: 1-1 (13%), 0-1 (10%), 1-0 (10%) · odd justa 2.83 / 3.52 / 2.75
 - **Mercado (DraftKings via ESPN, sem margem):** 29% / 26% / 45% · diferença modelo − mercado no mandante: +6 p.p.
+- **Escanteios:** esperados 4.7 x 4.4 (total 9.1) · mais escanteios: Grêmio 49%, Cruzeiro 40% · +8.5: 53% (liga 69%) · +9.5: 42% (liga 57%) · +10.5: 32% (liga 43%) · +11.5: 23% (liga 34%). No backtest o total não bate a frequência da liga; o lado com mais escanteios ajuda um pouco.
 - **Desfalques/dúvidas Grêmio (Cartola):** Noriega (ZAG, Dúvida, 20J 1G 1A); Nardoni (MEI, Contundido, 17J 1G 0A); Wallace (ZAG, Suspenso, 9J 2G 1A); Dodi (MEI, Dúvida, 9J 0G 0A); Krovinovic (MEI, Dúvida, 6J 0G 0A); Jovane Cabral (ATA, Contundido, 5J 0G 1A)
 - **Desfalques/dúvidas Cruzeiro (Cartola):** Fabrício Bruno (ZAG, Dúvida, 25J 0G 0A); Fagner (LAT, Dúvida, 20J 0G 4A); João Marcelo (ZAG, Dúvida, 15J 1G 0A); William (LAT, Dúvida, 15J 0G 0A); Sinisterra (ATA, Contundido, 8J 1G 0A); Felipe Morais (MEI, Suspenso, 6J 1G 0A)
 
@@ -114,6 +117,7 @@ dom 18/10 19:30 · Mangueirão
 - **Confronto direto (desde 2024):** 19/04/26 Bragantino 4-2 Remo
 - **Modelo:** gols esperados 1.30 x 1.23 · Remo 38%, empate 28%, Bragantino 34% · placares mais prováveis: 1-1 (13%), 1-0 (10%), 0-1 (9%) · odd justa 2.65 / 3.58 / 2.90
 - **Mercado (DraftKings via ESPN, sem margem):** 30% / 27% / 43% · diferença modelo − mercado no mandante: +7 p.p.
+- **Escanteios:** esperados 5.9 x 5.6 (total 11.5) · mais escanteios: Remo 48%, Bragantino 42% · +8.5: 77% (liga 69%) · +9.5: 67% (liga 57%) · +10.5: 57% (liga 43%) · +11.5: 47% (liga 34%). No backtest o total não bate a frequência da liga; o lado com mais escanteios ajuda um pouco.
 - **Desfalques/dúvidas Remo (Cartola):** Marcelo Rangel (GOL, Suspenso, 29J 0G 0A); Patrick (MEI, Dúvida, 25J 0G 0A); Jajá (ATA, Dúvida, 24J 7G 1A); Vitor Bueno (MEI, Dúvida, 22J 4G 3A); Galeano (ATA, Dúvida, 17J 0G 0A); Jáderson (MEI, Contundido, 12J 0G 0A)
 - **Desfalques/dúvidas Bragantino (Cartola):** Henry Mosquera (ATA, Contundido, 20J 0G 4A); Rodriguinho (MEI, Contundido, 15J 2G 0A)
 
@@ -138,6 +142,7 @@ seg 19/10 20:00 · Neo Química Arena
 - **Confronto direto (desde 2024):** 05/07/24 Corinthians 3-2 Vitória; 09/11/24 Vitória 1-2 Corinthians; 01/06/25 Corinthians 0-0 Vitória; 25/10/25 Vitória 0-1 Corinthians; 18/04/26 Vitória 0-0 Corinthians
 - **Modelo:** gols esperados 1.45 x 0.86 · Corinthians 50%, empate 28%, Vitória 22% · placares mais prováveis: 1-0 (14%), 1-1 (13%), 0-0 (10%) · odd justa 1.98 / 3.60 / 4.60
 - **Mercado (DraftKings via ESPN, sem margem):** 57% / 25% / 18% · diferença modelo − mercado no mandante: -7 p.p.
+- **Escanteios:** esperados 5.9 x 3.9 (total 9.8) · mais escanteios: Corinthians 65%, Vitória 26% · +8.5: 61% (liga 69%) · +9.5: 50% (liga 57%) · +10.5: 39% (liga 43%) · +11.5: 30% (liga 34%). No backtest o total não bate a frequência da liga; o lado com mais escanteios ajuda um pouco.
 - **Desfalques/dúvidas Corinthians (Cartola):** Raniele (MEI, Contundido, 24J 2G 0A); Allan (MEI, Dúvida, 21J 0G 1A); Memphis Depay (ATA, Suspenso, 13J 1G 0A); Labyad (MEI, Contundido, 11J 1G 2A); Kayke (ATA, Contundido, 6J 0G 0A); Charles (MEI, Dúvida, 4J 0G 0A)
 - **Desfalques/dúvidas Vitória (Cartola):** Tarzia (ATA, Dúvida, 22J 2G 1A); Cacá (ZAG, Suspenso, 21J 1G 0A); Zé Vitor (MEI, Dúvida, 18J 1G 0A); Ramon (LAT, Contundido, 17J 2G 0A); Baralhas (MEI, Contundido, 15J 2G 2A); Nathan Mendes (LAT, Contundido, 12J 0G 1A)
 

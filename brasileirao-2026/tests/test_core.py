@@ -99,3 +99,18 @@ def test_lineup_without_star_lowers_attack():
     a_weak, _, miss = lineups.team_multipliers("Flamengo", no_star, players)
     assert a_full == pytest.approx(1.0) and d_full == pytest.approx(1.0)
     assert a_weak < 0.9 and not miss
+
+
+def test_corners_model_home_team_with_more_corners():
+    from brasileirao import corners
+    rows = []
+    for i in range(20):
+        rows.append({"home": "A", "away": "B", "h_corners": 9, "a_corners": 3,
+                     "date_played": pd.Timestamp("2026-02-01") + pd.Timedelta(days=i)})
+        rows.append({"home": "B", "away": "A", "h_corners": 3 + i % 3, "a_corners": 6,
+                     "date_played": pd.Timestamp("2026-02-01") + pd.Timedelta(days=i)})
+    m = corners.CornersModel().fit(pd.DataFrame(rows))
+    p = m.predict("A", "B")
+    assert p["esc_casa"] > p["esc_fora"]
+    assert p["p_mais_esc_casa"] > 0.5
+    assert 1 >= p["p_esc_over_8.5"] >= p["p_esc_over_9.5"] >= p["p_esc_over_11.5"] >= 0

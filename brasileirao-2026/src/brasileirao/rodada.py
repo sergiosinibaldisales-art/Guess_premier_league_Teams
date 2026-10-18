@@ -11,7 +11,7 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from . import atualizar, lineups, stats
+from . import atualizar, corners, lineups, stats
 from .config import PROCESSED, REPORTS
 from .sources import SourceUnavailable, cartola
 
@@ -70,6 +70,7 @@ def build(res: dict, rodada: int) -> tuple[str, pd.DataFrame]:
     except SourceUnavailable as e:
         print(f"[aviso] sem dados de jogadores do Cartola: {e}")
         players = None
+    cm = corners.CornersModel().fit(matches) if "h_corners" in matches else None
     lu = lineups.multipliers_for_round(rodada, lineups.per_game(players) if players is not None else None)
 
     out = [f"# Brasileirão 2026 · Rodada {rodada}",
@@ -80,8 +81,8 @@ def build(res: dict, rodada: int) -> tuple[str, pd.DataFrame]:
         out += [f"- {r.home} {int(r.hg)} x {int(r.ag)} {r.away}" for r in done.itertuples()]
         out.append("")
     out += [f"## Faltam {len(todo)} jogos", "",
-            "| Jogo | Quando | Casa | Empate | Fora | Placar provável | +2,5 gols | Ambos marcam |",
-            "|---|---|---|---|---|---|---|---|"]
+            "| Jogo | Quando | Casa | Empate | Fora | Placar provável | +2,5 gols | Ambos marcam | Escanteios esperados |",
+            "|---|---|---|---|---|---|---|---|---|"]
     rows, blocks = [], []
     for g in todo.itertuples():
         mult = {}
@@ -92,9 +93,11 @@ def build(res: dict, rodada: int) -> tuple[str, pd.DataFrame]:
         p = model.predict(g.home, g.away, **mult)
         lam, mu = model.expected_goals(g.home, g.away, **mult)
         when = g.datetime if hasattr(g, "datetime") and pd.notna(g.datetime) else g.date_original
+        c = cm.predict(g.home, g.away) if cm is not None else None
+        esc = f"{c['esc_casa']:.1f} x {c['esc_fora']:.1f}" if c else "-"
         out.append(f"| {g.home} x {g.away} | {_when(when)} | {_pct(p['p_home'])} | "
                    f"{_pct(p['p_draw'])} | {_pct(p['p_away'])} | {p['placar_mais_provavel']} | "
-                   f"{_pct(p['p_over_2_5'])} | {_pct(p['p_btts'])} |")
+                   f"{_pct(p['p_over_2_5'])} | {_pct(p['p_btts'])} | {esc} |")
         mk = _no_vig(getattr(g, "odd_mkt_h", None), getattr(g, "odd_mkt_d", None),
                      getattr(g, "odd_mkt_a", None))
         th, ta = tab.loc[g.home], tab.loc[g.away]
@@ -126,6 +129,15 @@ def build(res: dict, rodada: int) -> tuple[str, pd.DataFrame]:
                      f"{100 * (p['p_home'] - mk[0]):+.0f} p.p.")
         else:
             b.append("- **Mercado:** odds não publicadas pela ESPN para este jogo.")
+        if c is not None:
+            base = cm.league_rates()
+            lines = " · ".join(f"+{L:g}: {_pct(c[f'p_esc_over_{L}'])} (liga {_pct(base[L])})"
+                               for L in corners.LINES)
+            b.append(f"- **Escanteios:** esperados {c['esc_casa']:.1f} x {c['esc_fora']:.1f} "
+                     f"(total {c['esc_total']:.1f}) · mais escanteios: {g.home} "
+                     f"{_pct(c['p_mais_esc_casa'])}, {g.away} {_pct(c['p_mais_esc_fora'])} · "
+                     f"{lines}. No backtest o total não bate a frequência da liga; "
+                     "o lado com mais escanteios ajuda um pouco.")
         if players is not None:
             for t in (g.home, g.away):
                 df = lineups.desfalques(players, t)
@@ -134,7 +146,7 @@ def build(res: dict, rodada: int) -> tuple[str, pd.DataFrame]:
                         f"{r.apelido} ({r.pos}, {r.status}, {r.jogos}J {r.G}G {r.A}A)"
                         for r in df.head(6).itertuples()))
         blocks += b + [""]
-        rows.append({**p, "round": rodada, "quando": when,
+        rows.append({**p, **(c or {}), "round": rodada, "quando": when,
                      "p_mercado_home": mk[0] if mk is not None else np.nan,
                      "p_mercado_draw": mk[1] if mk is not None else np.nan,
                      "p_mercado_away": mk[2] if mk is not None else np.nan})

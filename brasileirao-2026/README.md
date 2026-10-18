@@ -66,6 +66,16 @@ da CBF. Exemplo real: Flamengo x Mirassol é da rodada 4 e foi jogado em
 02/09; Chapecoense x Vasco (rodada 21) segue sem data e aparece como
 atrasado.
 
+## Escanteios
+
+`src/brasileirao/corners.py` prevê os escanteios de cada time (média da liga
+x índice a favor do time x índice cedido pelo adversário, com binomial
+negativa). Backtest em 2026 (257 jogos): para o **total** de escanteios o
+modelo não bate a frequência da liga (+9,5: log-loss 0.699 x 0.694); para
+**quem tem mais escanteios** ajuda um pouco (0.881 x 0.900). Por isso o
+relatório mostra a frequência da liga ao lado de cada linha. Rodar de novo:
+`python -m brasileirao.corners`.
+
 ## O modelo e o quanto confiar nele
 
 Dixon-Coles (Poisson + correção de placares baixos + peso maior para jogos
