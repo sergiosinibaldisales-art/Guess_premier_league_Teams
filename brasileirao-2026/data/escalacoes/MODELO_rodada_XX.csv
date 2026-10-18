@@ -1,0 +1,6 @@
+# Copie para rodada_32.csv (número com 2 dígitos) e preencha no dia do jogo.
+# Atalho: python -m brasileirao.lineups 32  cria o arquivo com os "Prováveis" do Cartola.
+# Uma linha por titular. Nome como aparece no Cartola (apelido basta, ex.: Arrascaeta).
+# Opcional: ajuste_ataque / ajuste_defesa numa linha do time sobrescreve o cálculo
+#   ex.: 0.9 no ataque = time 10% mais fraco no ataque; 1.1 na defesa = sofre 10% mais.
+time,jogador,ajuste_ataque,ajuste_defesa

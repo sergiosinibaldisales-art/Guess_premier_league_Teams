@@ -1,0 +1,381 @@
+round,date_original,home,away
+1,2026-01-28,Atlético-MG,Palmeiras
+1,2026-01-28,Chapecoense,Santos
+1,2026-01-28,Corinthians,Bahia
+1,2026-01-28,Coritiba,Bragantino
+1,2026-01-28,Fluminense,Grêmio
+1,2026-01-28,Internacional,Athletico-PR
+1,2026-01-28,São Paulo,Flamengo
+1,2026-01-28,Vitória,Remo
+1,2026-01-29,Botafogo,Cruzeiro
+1,2026-01-29,Mirassol,Vasco
+2,2026-02-04,Bragantino,Atlético-MG
+2,2026-02-04,Flamengo,Internacional
+2,2026-02-04,Grêmio,Botafogo
+2,2026-02-04,Palmeiras,Vitória
+2,2026-02-04,Remo,Mirassol
+2,2026-02-04,Santos,São Paulo
+2,2026-02-05,Bahia,Fluminense
+2,2026-02-05,Cruzeiro,Coritiba
+2,2026-02-05,Vasco,Chapecoense
+2,2026-02-19,Athletico-PR,Corinthians
+3,2026-02-10,Vitória,Flamengo
+3,2026-02-11,Atlético-MG,Remo
+3,2026-02-11,Chapecoense,Coritiba
+3,2026-02-11,Mirassol,Cruzeiro
+3,2026-02-11,São Paulo,Grêmio
+3,2026-02-11,Vasco,Bahia
+3,2026-02-12,Athletico-PR,Santos
+3,2026-02-12,Corinthians,Bragantino
+3,2026-02-12,Fluminense,Botafogo
+3,2026-02-12,Internacional,Palmeiras
+4,2026-02-25,Bragantino,Athletico-PR
+4,2026-02-25,Coritiba,São Paulo
+4,2026-02-25,Cruzeiro,Corinthians
+4,2026-02-25,Grêmio,Atlético-MG
+4,2026-02-25,Palmeiras,Fluminense
+4,2026-02-25,Remo,Internacional
+4,2026-02-26,Santos,Vasco
+4,2026-07-17,Bahia,Chapecoense
+4,2026-07-23,Botafogo,Vitória
+4,2026-09-02,Flamengo,Mirassol
+5,2026-03-10,Mirassol,Santos
+5,2026-03-11,Atlético-MG,Internacional
+5,2026-03-11,Bahia,Vitória
+5,2026-03-11,Corinthians,Coritiba
+5,2026-03-11,Flamengo,Cruzeiro
+5,2026-03-12,Grêmio,Bragantino
+5,2026-03-12,Remo,Fluminense
+5,2026-03-12,São Paulo,Chapecoense
+5,2026-03-12,Vasco,Palmeiras
+5,2026-03-29,Athletico-PR,Botafogo
+6,2026-03-14,Botafogo,Flamengo
+6,2026-03-14,Vitória,Atlético-MG
+6,2026-03-15,Bragantino,São Paulo
+6,2026-03-15,Coritiba,Remo
+6,2026-03-15,Cruzeiro,Vasco
+6,2026-03-15,Fluminense,Athletico-PR
+6,2026-03-15,Internacional,Bahia
+6,2026-03-15,Palmeiras,Mirassol
+6,2026-03-15,Santos,Corinthians
+6,2026-03-16,Chapecoense,Grêmio
+7,2026-03-18,Athletico-PR,Cruzeiro
+7,2026-03-18,Atlético-MG,São Paulo
+7,2026-03-18,Bahia,Bragantino
+7,2026-03-18,Mirassol,Coritiba
+7,2026-03-18,Palmeiras,Botafogo
+7,2026-03-18,Santos,Internacional
+7,2026-03-18,Vasco,Fluminense
+7,2026-03-19,Chapecoense,Corinthians
+7,2026-03-19,Flamengo,Remo
+7,2026-03-19,Grêmio,Vitória
+8,2026-03-21,Bragantino,Botafogo
+8,2026-03-21,Fluminense,Atlético-MG
+8,2026-03-21,São Paulo,Palmeiras
+8,2026-03-22,Athletico-PR,Coritiba
+8,2026-03-22,Corinthians,Flamengo
+8,2026-03-22,Cruzeiro,Santos
+8,2026-03-22,Internacional,Chapecoense
+8,2026-03-22,Remo,Bahia
+8,2026-03-22,Vasco,Grêmio
+8,2026-03-22,Vitória,Mirassol
+9,2026-04-01,Bahia,Athletico-PR
+9,2026-04-01,Botafogo,Mirassol
+9,2026-04-01,Coritiba,Vasco
+9,2026-04-01,Cruzeiro,Vitória
+9,2026-04-01,Fluminense,Corinthians
+9,2026-04-01,Internacional,São Paulo
+9,2026-04-02,Bragantino,Flamengo
+9,2026-04-02,Chapecoense,Atlético-MG
+9,2026-04-02,Palmeiras,Grêmio
+9,2026-04-02,Santos,Remo
+10,2026-04-04,Coritiba,Fluminense
+10,2026-04-04,São Paulo,Cruzeiro
+10,2026-04-04,Vasco,Botafogo
+10,2026-04-05,Atlético-MG,Athletico-PR
+10,2026-04-05,Bahia,Palmeiras
+10,2026-04-05,Chapecoense,Vitória
+10,2026-04-05,Corinthians,Internacional
+10,2026-04-05,Flamengo,Santos
+10,2026-04-05,Grêmio,Remo
+10,2026-04-05,Mirassol,Bragantino
+11,2026-04-11,Internacional,Grêmio
+11,2026-04-11,Mirassol,Bahia
+11,2026-04-11,Remo,Vasco
+11,2026-04-11,Santos,Atlético-MG
+11,2026-04-11,Vitória,São Paulo
+11,2026-04-12,Athletico-PR,Chapecoense
+11,2026-04-12,Botafogo,Coritiba
+11,2026-04-12,Corinthians,Palmeiras
+11,2026-04-12,Cruzeiro,Bragantino
+11,2026-04-12,Fluminense,Flamengo
+12,2026-04-18,Chapecoense,Botafogo
+12,2026-04-18,Cruzeiro,Grêmio
+12,2026-04-18,Vasco,São Paulo
+12,2026-04-18,Vitória,Corinthians
+12,2026-04-19,Bragantino,Remo
+12,2026-04-19,Coritiba,Atlético-MG
+12,2026-04-19,Flamengo,Bahia
+12,2026-04-19,Internacional,Mirassol
+12,2026-04-19,Palmeiras,Athletico-PR
+12,2026-04-19,Santos,Fluminense
+13,2026-04-25,Bahia,Santos
+13,2026-04-25,Botafogo,Internacional
+13,2026-04-25,Remo,Cruzeiro
+13,2026-04-25,São Paulo,Mirassol
+13,2026-04-26,Athletico-PR,Vitória
+13,2026-04-26,Atlético-MG,Flamengo
+13,2026-04-26,Bragantino,Palmeiras
+13,2026-04-26,Corinthians,Vasco
+13,2026-04-26,Fluminense,Chapecoense
+13,2026-04-26,Grêmio,Coritiba
+14,2026-05-02,Athletico-PR,Grêmio
+14,2026-05-02,Botafogo,Remo
+14,2026-05-02,Cruzeiro,Atlético-MG
+14,2026-05-02,Palmeiras,Santos
+14,2026-05-02,Vitória,Coritiba
+14,2026-05-03,Chapecoense,Bragantino
+14,2026-05-03,Flamengo,Vasco
+14,2026-05-03,Internacional,Fluminense
+14,2026-05-03,Mirassol,Corinthians
+14,2026-05-03,São Paulo,Bahia
+15,2026-05-09,Bahia,Cruzeiro
+15,2026-05-09,Coritiba,Internacional
+15,2026-05-09,Fluminense,Vitória
+15,2026-05-10,Atlético-MG,Botafogo
+15,2026-05-10,Corinthians,São Paulo
+15,2026-05-10,Grêmio,Flamengo
+15,2026-05-10,Mirassol,Chapecoense
+15,2026-05-10,Remo,Palmeiras
+15,2026-05-10,Santos,Bragantino
+15,2026-05-10,Vasco,Athletico-PR
+16,2026-05-16,Atlético-MG,Mirassol
+16,2026-05-16,Fluminense,São Paulo
+16,2026-05-16,Internacional,Vasco
+16,2026-05-16,Palmeiras,Cruzeiro
+16,2026-05-17,Athletico-PR,Flamengo
+16,2026-05-17,Bahia,Grêmio
+16,2026-05-17,Botafogo,Corinthians
+16,2026-05-17,Bragantino,Vitória
+16,2026-05-17,Chapecoense,Remo
+16,2026-05-17,Santos,Coritiba
+17,2026-05-23,Flamengo,Palmeiras
+17,2026-05-23,Grêmio,Santos
+17,2026-05-23,Mirassol,Fluminense
+17,2026-05-23,São Paulo,Botafogo
+17,2026-05-23,Vitória,Internacional
+17,2026-05-24,Corinthians,Atlético-MG
+17,2026-05-24,Cruzeiro,Chapecoense
+17,2026-05-24,Remo,Athletico-PR
+17,2026-05-24,Vasco,Bragantino
+17,2026-05-25,Coritiba,Bahia
+18,2026-05-30,Athletico-PR,Mirassol
+18,2026-05-30,Bahia,Botafogo
+18,2026-05-30,Flamengo,Coritiba
+18,2026-05-30,Grêmio,Corinthians
+18,2026-05-30,Santos,Vitória
+18,2026-05-31,Bragantino,Internacional
+18,2026-05-31,Cruzeiro,Fluminense
+18,2026-05-31,Palmeiras,Chapecoense
+18,2026-05-31,Remo,São Paulo
+18,2026-05-31,Vasco,Atlético-MG
+19,2026-07-16,Botafogo,Santos
+19,2026-07-16,Vitória,Vasco
+19,2026-07-17,Fluminense,Bragantino
+19,2026-07-17,Mirassol,Grêmio
+19,2026-07-21,Atlético-MG,Bahia
+19,2026-07-22,Chapecoense,Flamengo
+19,2026-07-22,Coritiba,Palmeiras
+19,2026-07-22,Internacional,Cruzeiro
+19,2026-07-22,São Paulo,Athletico-PR
+19,2026-07-23,Corinthians,Remo
+20,2026-07-25,Athletico-PR,Internacional
+20,2026-07-25,Santos,Chapecoense
+20,2026-07-25,Vasco,Mirassol
+20,2026-07-26,Bahia,Corinthians
+20,2026-07-26,Bragantino,Coritiba
+20,2026-07-26,Cruzeiro,Botafogo
+20,2026-07-26,Flamengo,São Paulo
+20,2026-07-26,Grêmio,Fluminense
+20,2026-07-26,Palmeiras,Atlético-MG
+20,2026-07-26,Remo,Vitória
+21,2026-07-29,Chapecoense,Vasco
+21,2026-07-29,Fluminense,Bahia
+21,2026-07-29,Internacional,Flamengo
+21,2026-07-29,Mirassol,Remo
+21,2026-07-29,Vitória,Palmeiras
+21,2026-07-30,Corinthians,Athletico-PR
+21,2026-07-30,Coritiba,Cruzeiro
+21,2026-09-16,Botafogo,Grêmio
+21,2026-10-02,São Paulo,Santos
+21,2026-10-03,Atlético-MG,Bragantino
+22,2026-08-08,Botafogo,Fluminense
+22,2026-08-08,Coritiba,Chapecoense
+22,2026-08-08,Grêmio,São Paulo
+22,2026-08-08,Remo,Atlético-MG
+22,2026-08-09,Bahia,Vasco
+22,2026-08-09,Bragantino,Corinthians
+22,2026-08-09,Cruzeiro,Mirassol
+22,2026-08-09,Flamengo,Vitória
+22,2026-08-09,Palmeiras,Internacional
+22,2026-08-09,Santos,Athletico-PR
+23,2026-08-15,Athletico-PR,Bragantino
+23,2026-08-15,Fluminense,Palmeiras
+23,2026-08-15,São Paulo,Coritiba
+23,2026-08-16,Atlético-MG,Grêmio
+23,2026-08-16,Chapecoense,Bahia
+23,2026-08-16,Corinthians,Cruzeiro
+23,2026-08-16,Mirassol,Flamengo
+23,2026-08-16,Vasco,Santos
+23,2026-08-16,Vitória,Botafogo
+23,2026-08-17,Internacional,Remo
+24,2026-08-22,Cruzeiro,Flamengo
+24,2026-08-22,Fluminense,Remo
+24,2026-08-22,Internacional,Atlético-MG
+24,2026-08-23,Bragantino,Grêmio
+24,2026-08-23,Chapecoense,São Paulo
+24,2026-08-23,Coritiba,Corinthians
+24,2026-08-23,Palmeiras,Vasco
+24,2026-08-23,Santos,Mirassol
+24,2026-08-23,Vitória,Bahia
+24,2026-08-24,Botafogo,Athletico-PR
+25,2026-08-29,Atlético-MG,Vitória
+25,2026-08-29,São Paulo,Bragantino
+25,2026-08-29,Vasco,Cruzeiro
+25,2026-08-30,Athletico-PR,Fluminense
+25,2026-08-30,Bahia,Internacional
+25,2026-08-30,Corinthians,Santos
+25,2026-08-30,Flamengo,Botafogo
+25,2026-08-30,Grêmio,Chapecoense
+25,2026-08-30,Mirassol,Palmeiras
+25,2026-08-31,Remo,Coritiba
+26,2026-09-05,Bragantino,Bahia
+26,2026-09-05,Fluminense,Vasco
+26,2026-09-05,São Paulo,Atlético-MG
+26,2026-09-06,Botafogo,Palmeiras
+26,2026-09-06,Corinthians,Chapecoense
+26,2026-09-06,Coritiba,Mirassol
+26,2026-09-06,Cruzeiro,Athletico-PR
+26,2026-09-06,Internacional,Santos
+26,2026-09-06,Remo,Flamengo
+26,2026-09-07,Vitória,Grêmio
+27,2026-09-11,Coritiba,Athletico-PR
+27,2026-09-12,Atlético-MG,Fluminense
+27,2026-09-12,Botafogo,Bragantino
+27,2026-09-12,Chapecoense,Internacional
+27,2026-09-12,Grêmio,Vasco
+27,2026-09-12,Palmeiras,São Paulo
+27,2026-09-12,Santos,Cruzeiro
+27,2026-09-13,Flamengo,Corinthians
+27,2026-09-13,Mirassol,Vitória
+27,2026-09-14,Bahia,Remo
+28,2026-09-19,Atlético-MG,Chapecoense
+28,2026-09-19,Mirassol,Botafogo
+28,2026-09-19,Remo,Santos
+28,2026-09-19,São Paulo,Internacional
+28,2026-09-19,Vasco,Coritiba
+28,2026-09-20,Athletico-PR,Bahia
+28,2026-09-20,Corinthians,Fluminense
+28,2026-09-20,Flamengo,Bragantino
+28,2026-09-20,Grêmio,Palmeiras
+28,2026-09-20,Vitória,Cruzeiro
+29,2026-10-07,Botafogo,Vasco
+29,2026-10-07,Bragantino,Mirassol
+29,2026-10-07,Cruzeiro,São Paulo
+29,2026-10-07,Internacional,Corinthians
+29,2026-10-07,Remo,Grêmio
+29,2026-10-07,Vitória,Chapecoense
+29,2026-10-08,Athletico-PR,Atlético-MG
+29,2026-10-08,Fluminense,Coritiba
+29,2026-10-08,Palmeiras,Bahia
+29,2026-10-08,Santos,Flamengo
+30,2026-10-10,São Paulo,Vitória
+30,2026-10-10,Vasco,Remo
+30,2026-10-11,Atlético-MG,Santos
+30,2026-10-11,Bahia,Mirassol
+30,2026-10-11,Flamengo,Fluminense
+30,2026-10-11,Grêmio,Internacional
+30,2026-10-11,Palmeiras,Corinthians
+30,2026-10-12,Bragantino,Cruzeiro
+30,2026-10-12,Chapecoense,Athletico-PR
+30,2026-10-12,Coritiba,Botafogo
+31,2026-10-16,Mirassol,Internacional
+31,2026-10-17,Athletico-PR,Palmeiras
+31,2026-10-17,Atlético-MG,Coritiba
+31,2026-10-17,Botafogo,Chapecoense
+31,2026-10-17,São Paulo,Vasco
+31,2026-10-18,Bahia,Flamengo
+31,2026-10-18,Fluminense,Santos
+31,2026-10-18,Grêmio,Cruzeiro
+31,2026-10-18,Remo,Bragantino
+31,2026-10-19,Corinthians,Vitória
+32,2026-10-23,Cruzeiro,Remo
+32,2026-10-24,Chapecoense,Fluminense
+32,2026-10-24,Internacional,Botafogo
+32,2026-10-24,Mirassol,São Paulo
+32,2026-10-24,Palmeiras,Bragantino
+32,2026-10-24,Santos,Bahia
+32,2026-10-24,Vasco,Corinthians
+32,2026-10-24,Vitória,Athletico-PR
+32,2026-10-26,Coritiba,Grêmio
+32,2026-10-26,Flamengo,Atlético-MG
+33,2026-10-28,Bahia,São Paulo
+33,2026-10-28,Bragantino,Chapecoense
+33,2026-10-28,Fluminense,Internacional
+33,2026-10-28,Remo,Botafogo
+33,2026-10-28,Santos,Palmeiras
+33,2026-10-29,Atlético-MG,Cruzeiro
+33,2026-10-29,Grêmio,Athletico-PR
+33,2026-10-29,Vasco,Flamengo
+33,2026-10-30,Corinthians,Mirassol
+33,2026-10-31,Coritiba,Vitória
+34,2026-11-02,Bragantino,Santos
+34,2026-11-03,Chapecoense,Mirassol
+34,2026-11-03,Internacional,Coritiba
+34,2026-11-04,Athletico-PR,Vasco
+34,2026-11-04,Botafogo,Atlético-MG
+34,2026-11-04,Flamengo,Grêmio
+34,2026-11-04,São Paulo,Corinthians
+34,2026-11-05,Cruzeiro,Bahia
+34,2026-11-05,Palmeiras,Remo
+34,2026-11-06,Vitória,Fluminense
+35,2026-11-18,Corinthians,Botafogo
+35,2026-11-18,Coritiba,Santos
+35,2026-11-18,Cruzeiro,Palmeiras
+35,2026-11-18,Flamengo,Athletico-PR
+35,2026-11-18,Grêmio,Bahia
+35,2026-11-18,Mirassol,Atlético-MG
+35,2026-11-18,Remo,Chapecoense
+35,2026-11-18,São Paulo,Fluminense
+35,2026-11-18,Vasco,Internacional
+35,2026-11-18,Vitória,Bragantino
+36,2026-11-22,Athletico-PR,Remo
+36,2026-11-22,Atlético-MG,Corinthians
+36,2026-11-22,Bahia,Coritiba
+36,2026-11-22,Botafogo,São Paulo
+36,2026-11-22,Bragantino,Vasco
+36,2026-11-22,Chapecoense,Cruzeiro
+36,2026-11-22,Fluminense,Mirassol
+36,2026-11-22,Internacional,Vitória
+36,2026-11-22,Palmeiras,Flamengo
+36,2026-11-22,Santos,Grêmio
+37,2026-11-29,Atlético-MG,Vasco
+37,2026-11-29,Botafogo,Bahia
+37,2026-11-29,Chapecoense,Palmeiras
+37,2026-11-29,Corinthians,Grêmio
+37,2026-11-29,Coritiba,Flamengo
+37,2026-11-29,Fluminense,Cruzeiro
+37,2026-11-29,Internacional,Bragantino
+37,2026-11-29,Mirassol,Athletico-PR
+37,2026-11-29,São Paulo,Remo
+37,2026-11-29,Vitória,Santos
+38,2026-12-02,Athletico-PR,São Paulo
+38,2026-12-02,Bahia,Atlético-MG
+38,2026-12-02,Bragantino,Fluminense
+38,2026-12-02,Cruzeiro,Internacional
+38,2026-12-02,Flamengo,Chapecoense
+38,2026-12-02,Grêmio,Mirassol
+38,2026-12-02,Palmeiras,Coritiba
+38,2026-12-02,Remo,Corinthians
+38,2026-12-02,Santos,Botafogo
+38,2026-12-02,Vasco,Vitória
