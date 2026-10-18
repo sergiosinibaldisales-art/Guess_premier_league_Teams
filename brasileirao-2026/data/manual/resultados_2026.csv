@@ -1,0 +1,4 @@
+# Resultados verificados à mão para cobrir atraso das fontes automáticas.
+# Regra: só entra aqui placar confirmado em 2 sites diferentes (coluna fontes).
+# forcar=True faz este placar SOBRESCREVER o das fontes automáticas (use só para correções).
+home,away,hg,ag,date,fontes,forcar
