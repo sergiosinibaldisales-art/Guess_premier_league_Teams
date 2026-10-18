@@ -1,0 +1,8 @@
+# Copie para rodada_08.csv (número com 2 dígitos) e preencha no dia do jogo.
+# Uma linha por titular. Nome como aparece no FPL (sobrenome basta, ex.: Saka).
+# Opcional: ajuste_ataque / ajuste_defesa numa linha do time sobrescreve o cálculo
+#   ex.: 0.9 no ataque = time 10% mais fraco no ataque; 1.1 na defesa = sofre 10% mais.
+time,jogador,ajuste_ataque,ajuste_defesa
+Arsenal,Raya,,
+Arsenal,Saliba,,
+Arsenal,Saka,,

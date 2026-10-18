@@ -1,0 +1,381 @@
+round,date_original,home,away,hg,ag,date_played,source,status
+1,2026-08-21,Arsenal,Coventry,3,0,2026-08-21,openfootball,jogado
+1,2026-08-22,Brentford,Tottenham,3,0,2026-08-22,openfootball,jogado
+1,2026-08-22,Everton,Crystal Palace,2,0,2026-08-22,openfootball,jogado
+1,2026-08-22,Hull,Man United,2,0,2026-08-22,openfootball,jogado
+1,2026-08-22,Ipswich,Sunderland,2,1,2026-08-22,openfootball,jogado
+1,2026-08-22,Nott'm Forest,Leeds,0,1,2026-08-22,openfootball,jogado
+1,2026-08-23,Brighton,Aston Villa,4,0,2026-08-23,openfootball,jogado
+1,2026-08-23,Man City,Bournemouth,2,1,2026-08-23,openfootball,jogado
+1,2026-08-23,Newcastle,Liverpool,2,2,2026-08-23,openfootball,jogado
+1,2026-08-24,Fulham,Chelsea,2,3,2026-08-24,openfootball,jogado
+2,2026-08-28,Crystal Palace,Man City,1,4,2026-08-28,openfootball,jogado
+2,2026-08-29,Bournemouth,Everton,1,1,2026-08-29,openfootball,jogado
+2,2026-08-29,Coventry,Hull,0,1,2026-08-29,openfootball,jogado
+2,2026-08-29,Liverpool,Nott'm Forest,2,2,2026-08-29,openfootball,jogado
+2,2026-08-29,Tottenham,Newcastle,0,2,2026-08-29,openfootball,jogado
+2,2026-08-30,Chelsea,Brighton,4,3,2026-08-30,openfootball,jogado
+2,2026-08-30,Leeds,Brentford,1,1,2026-08-30,openfootball,jogado
+2,2026-08-30,Man United,Ipswich,5,2,2026-08-30,openfootball,jogado
+2,2026-08-30,Sunderland,Fulham,1,0,2026-08-30,openfootball,jogado
+2,2026-08-31,Aston Villa,Arsenal,0,1,2026-08-31,openfootball,jogado
+3,2026-09-04,Ipswich,Liverpool,0,2,2026-09-04,openfootball,jogado
+3,2026-09-05,Brentford,Sunderland,1,1,2026-09-05,openfootball,jogado
+3,2026-09-05,Brighton,Leeds,1,1,2026-09-05,openfootball,jogado
+3,2026-09-05,Fulham,Crystal Palace,2,3,2026-09-05,openfootball,jogado
+3,2026-09-05,Hull,Aston Villa,0,0,2026-09-05,openfootball,jogado
+3,2026-09-05,Man City,Coventry,1,0,2026-09-05,openfootball,jogado
+3,2026-09-05,Newcastle,Bournemouth,2,2,2026-09-05,openfootball,jogado
+3,2026-09-05,Nott'm Forest,Tottenham,0,0,2026-09-05,openfootball,jogado
+3,2026-09-06,Arsenal,Chelsea,2,1,2026-09-06,openfootball,jogado
+3,2026-09-06,Everton,Man United,2,2,2026-09-06,openfootball,jogado
+4,2026-09-12,Aston Villa,Nott'm Forest,1,2,2026-09-12,openfootball,jogado
+4,2026-09-12,Bournemouth,Brentford,2,2,2026-09-12,openfootball,jogado
+4,2026-09-12,Chelsea,Hull,2,2,2026-09-12,openfootball,jogado
+4,2026-09-12,Crystal Palace,Ipswich,2,3,2026-09-12,openfootball,jogado
+4,2026-09-12,Liverpool,Fulham,0,0,2026-09-12,openfootball,jogado
+4,2026-09-12,Sunderland,Arsenal,0,2,2026-09-12,openfootball,jogado
+4,2026-09-12,Tottenham,Everton,0,0,2026-09-12,openfootball,jogado
+4,2026-09-13,Coventry,Brighton,0,5,2026-09-13,openfootball,jogado
+4,2026-09-13,Man United,Man City,0,1,2026-09-13,openfootball,jogado
+4,2026-09-14,Leeds,Newcastle,4,1,2026-09-14,openfootball,jogado
+5,2026-09-18,Brentford,Chelsea,3,0,2026-09-18,openfootball,jogado
+5,2026-09-19,Brighton,Arsenal,3,0,2026-09-19,openfootball,jogado
+5,2026-09-19,Everton,Ipswich,1,0,2026-09-19,openfootball,jogado
+5,2026-09-19,Newcastle,Hull,2,1,2026-09-19,openfootball,jogado
+5,2026-09-19,Nott'm Forest,Coventry,0,1,2026-09-19,openfootball,jogado
+5,2026-09-19,Tottenham,Aston Villa,2,3,2026-09-19,openfootball,jogado
+5,2026-09-20,Bournemouth,Liverpool,0,1,2026-09-20,openfootball,jogado
+5,2026-09-20,Fulham,Man United,1,1,2026-09-20,openfootball,jogado
+5,2026-09-20,Leeds,Crystal Palace,0,0,2026-09-20,openfootball,jogado
+5,2026-09-20,Man City,Sunderland,5,3,2026-09-20,openfootball,jogado
+6,2026-10-10,Arsenal,Leeds,2,1,2026-10-10,manual,jogado
+6,2026-10-10,Aston Villa,Brentford,2,2,2026-10-10,manual,jogado
+6,2026-10-10,Chelsea,Bournemouth,5,1,2026-10-10,manual,jogado
+6,2026-10-10,Ipswich,Fulham,2,1,2026-10-10,manual,jogado
+6,2026-10-10,Man United,Tottenham,1,1,2026-10-10,manual,jogado
+6,2026-10-10,Sunderland,Brighton,0,2,2026-10-10,manual,jogado
+6,2026-10-11,Crystal Palace,Nott'm Forest,3,1,2026-10-11,manual,jogado
+6,2026-10-11,Hull,Everton,2,2,2026-10-11,manual,jogado
+6,2026-10-11,Liverpool,Man City,0,3,2026-10-11,manual,jogado
+6,2026-10-12,Coventry,Newcastle,4,1,2026-10-12,manual,jogado
+7,2026-10-17,Brentford,Liverpool,1,2,2026-10-17,manual,jogado
+7,2026-10-17,Everton,Chelsea,0,2,2026-10-17,manual,jogado
+7,2026-10-17,Fulham,Hull,1,0,2026-10-17,manual,jogado
+7,2026-10-17,Man City,Ipswich,3,2,2026-10-17,manual,jogado
+7,2026-10-17,Newcastle,Aston Villa,0,1,2026-10-17,manual,jogado
+7,2026-10-18,Bournemouth,Sunderland,,,,,a jogar
+7,2026-10-18,Brighton,Crystal Palace,,,,,a jogar
+7,2026-10-18,Leeds,Man United,,,,,a jogar
+7,2026-10-18,Nott'm Forest,Arsenal,,,,,a jogar
+7,2026-10-19,Tottenham,Coventry,,,,,a jogar
+8,2026-10-23,Ipswich,Nott'm Forest,,,,,a jogar
+8,2026-10-24,Arsenal,Everton,,,,,a jogar
+8,2026-10-24,Aston Villa,Man City,,,,,a jogar
+8,2026-10-24,Chelsea,Tottenham,,,,,a jogar
+8,2026-10-24,Coventry,Fulham,,,,,a jogar
+8,2026-10-25,Crystal Palace,Newcastle,,,,,a jogar
+8,2026-10-25,Hull,Brentford,,,,,a jogar
+8,2026-10-25,Liverpool,Brighton,,,,,a jogar
+8,2026-10-25,Man United,Bournemouth,,,,,a jogar
+8,2026-10-25,Sunderland,Leeds,,,,,a jogar
+9,2026-10-31,Aston Villa,Fulham,,,,,a jogar
+9,2026-10-31,Bournemouth,Leeds,,,,,a jogar
+9,2026-10-31,Brentford,Nott'm Forest,,,,,a jogar
+9,2026-10-31,Chelsea,Man United,,,,,a jogar
+9,2026-10-31,Coventry,Sunderland,,,,,a jogar
+9,2026-10-31,Hull,Ipswich,,,,,a jogar
+9,2026-10-31,Man City,Brighton,,,,,a jogar
+9,2026-10-31,Tottenham,Crystal Palace,,,,,a jogar
+9,2026-11-01,Liverpool,Arsenal,,,,,a jogar
+9,2026-11-02,Newcastle,Everton,,,,,a jogar
+10,2026-11-07,Arsenal,Hull,,,,,a jogar
+10,2026-11-07,Brighton,Brentford,,,,,a jogar
+10,2026-11-07,Crystal Palace,Liverpool,,,,,a jogar
+10,2026-11-07,Everton,Coventry,,,,,a jogar
+10,2026-11-07,Fulham,Newcastle,,,,,a jogar
+10,2026-11-07,Ipswich,Bournemouth,,,,,a jogar
+10,2026-11-07,Leeds,Tottenham,,,,,a jogar
+10,2026-11-07,Man United,Aston Villa,,,,,a jogar
+10,2026-11-07,Nott'm Forest,Man City,,,,,a jogar
+10,2026-11-07,Sunderland,Chelsea,,,,,a jogar
+11,2026-11-21,Aston Villa,Sunderland,,,,,a jogar
+11,2026-11-21,Bournemouth,Nott'm Forest,,,,,a jogar
+11,2026-11-21,Brentford,Everton,,,,,a jogar
+11,2026-11-21,Chelsea,Leeds,,,,,a jogar
+11,2026-11-21,Coventry,Crystal Palace,,,,,a jogar
+11,2026-11-21,Hull,Brighton,,,,,a jogar
+11,2026-11-21,Liverpool,Man United,,,,,a jogar
+11,2026-11-21,Man City,Fulham,,,,,a jogar
+11,2026-11-21,Newcastle,Arsenal,,,,,a jogar
+11,2026-11-21,Tottenham,Ipswich,,,,,a jogar
+12,2026-11-28,Arsenal,Man City,,,,,a jogar
+12,2026-11-28,Brighton,Newcastle,,,,,a jogar
+12,2026-11-28,Crystal Palace,Hull,,,,,a jogar
+12,2026-11-28,Everton,Liverpool,,,,,a jogar
+12,2026-11-28,Fulham,Bournemouth,,,,,a jogar
+12,2026-11-28,Ipswich,Aston Villa,,,,,a jogar
+12,2026-11-28,Leeds,Coventry,,,,,a jogar
+12,2026-11-28,Man United,Brentford,,,,,a jogar
+12,2026-11-28,Nott'm Forest,Chelsea,,,,,a jogar
+12,2026-11-28,Sunderland,Tottenham,,,,,a jogar
+13,2026-12-02,Aston Villa,Everton,,,,,a jogar
+13,2026-12-02,Bournemouth,Brighton,,,,,a jogar
+13,2026-12-02,Brentford,Arsenal,,,,,a jogar
+13,2026-12-02,Chelsea,Crystal Palace,,,,,a jogar
+13,2026-12-02,Coventry,Ipswich,,,,,a jogar
+13,2026-12-02,Hull,Nott'm Forest,,,,,a jogar
+13,2026-12-02,Liverpool,Sunderland,,,,,a jogar
+13,2026-12-02,Man City,Leeds,,,,,a jogar
+13,2026-12-02,Newcastle,Man United,,,,,a jogar
+13,2026-12-02,Tottenham,Fulham,,,,,a jogar
+14,2026-12-05,Aston Villa,Crystal Palace,,,,,a jogar
+14,2026-12-05,Bournemouth,Hull,,,,,a jogar
+14,2026-12-05,Brentford,Man City,,,,,a jogar
+14,2026-12-05,Chelsea,Liverpool,,,,,a jogar
+14,2026-12-05,Everton,Fulham,,,,,a jogar
+14,2026-12-05,Leeds,Ipswich,,,,,a jogar
+14,2026-12-05,Man United,Coventry,,,,,a jogar
+14,2026-12-05,Newcastle,Sunderland,,,,,a jogar
+14,2026-12-05,Nott'm Forest,Brighton,,,,,a jogar
+14,2026-12-05,Tottenham,Arsenal,,,,,a jogar
+15,2026-12-12,Arsenal,Bournemouth,,,,,a jogar
+15,2026-12-12,Brighton,Everton,,,,,a jogar
+15,2026-12-12,Coventry,Aston Villa,,,,,a jogar
+15,2026-12-12,Crystal Palace,Man United,,,,,a jogar
+15,2026-12-12,Fulham,Brentford,,,,,a jogar
+15,2026-12-12,Hull,Tottenham,,,,,a jogar
+15,2026-12-12,Ipswich,Newcastle,,,,,a jogar
+15,2026-12-12,Liverpool,Leeds,,,,,a jogar
+15,2026-12-12,Man City,Chelsea,,,,,a jogar
+15,2026-12-12,Sunderland,Nott'm Forest,,,,,a jogar
+16,2026-12-19,Arsenal,Man United,,,,,a jogar
+16,2026-12-19,Bournemouth,Coventry,,,,,a jogar
+16,2026-12-19,Brentford,Newcastle,,,,,a jogar
+16,2026-12-19,Brighton,Ipswich,,,,,a jogar
+16,2026-12-19,Chelsea,Aston Villa,,,,,a jogar
+16,2026-12-19,Leeds,Fulham,,,,,a jogar
+16,2026-12-19,Liverpool,Tottenham,,,,,a jogar
+16,2026-12-19,Man City,Hull,,,,,a jogar
+16,2026-12-19,Nott'm Forest,Everton,,,,,a jogar
+16,2026-12-19,Sunderland,Crystal Palace,,,,,a jogar
+17,2026-12-26,Aston Villa,Leeds,,,,,a jogar
+17,2026-12-26,Everton,Sunderland,,,,,a jogar
+17,2026-12-26,Fulham,Brighton,,,,,a jogar
+17,2026-12-26,Hull,Liverpool,,,,,a jogar
+17,2026-12-26,Ipswich,Brentford,,,,,a jogar
+17,2026-12-26,Newcastle,Man City,,,,,a jogar
+17,2026-12-26,Tottenham,Bournemouth,,,,,a jogar
+17,2026-12-27,Coventry,Chelsea,,,,,a jogar
+17,2026-12-27,Crystal Palace,Arsenal,,,,,a jogar
+17,2026-12-27,Man United,Nott'm Forest,,,,,a jogar
+18,2026-12-29,Everton,Man City,,,,,a jogar
+18,2026-12-29,Hull,Leeds,,,,,a jogar
+18,2026-12-29,Tottenham,Brighton,,,,,a jogar
+18,2026-12-30,Aston Villa,Liverpool,,,,,a jogar
+18,2026-12-30,Coventry,Brentford,,,,,a jogar
+18,2026-12-30,Crystal Palace,Bournemouth,,,,,a jogar
+18,2026-12-30,Fulham,Arsenal,,,,,a jogar
+18,2026-12-30,Ipswich,Chelsea,,,,,a jogar
+18,2026-12-30,Man United,Sunderland,,,,,a jogar
+18,2026-12-30,Newcastle,Nott'm Forest,,,,,a jogar
+19,2027-01-01,Leeds,Everton,,,,,a jogar
+19,2027-01-02,Arsenal,Ipswich,,,,,a jogar
+19,2027-01-02,Bournemouth,Aston Villa,,,,,a jogar
+19,2027-01-02,Brentford,Crystal Palace,,,,,a jogar
+19,2027-01-02,Brighton,Man United,,,,,a jogar
+19,2027-01-02,Liverpool,Coventry,,,,,a jogar
+19,2027-01-02,Nott'm Forest,Fulham,,,,,a jogar
+19,2027-01-02,Sunderland,Hull,,,,,a jogar
+19,2027-01-03,Chelsea,Newcastle,,,,,a jogar
+19,2027-01-03,Man City,Tottenham,,,,,a jogar
+20,2027-01-05,Arsenal,Brentford,,,,,a jogar
+20,2027-01-05,Brighton,Bournemouth,,,,,a jogar
+20,2027-01-05,Everton,Aston Villa,,,,,a jogar
+20,2027-01-05,Nott'm Forest,Hull,,,,,a jogar
+20,2027-01-05,Sunderland,Liverpool,,,,,a jogar
+20,2027-01-06,Crystal Palace,Chelsea,,,,,a jogar
+20,2027-01-06,Fulham,Tottenham,,,,,a jogar
+20,2027-01-06,Ipswich,Coventry,,,,,a jogar
+20,2027-01-06,Leeds,Man City,,,,,a jogar
+20,2027-01-07,Man United,Newcastle,,,,,a jogar
+21,2027-01-16,Aston Villa,Man United,,,,,a jogar
+21,2027-01-16,Bournemouth,Ipswich,,,,,a jogar
+21,2027-01-16,Brentford,Brighton,,,,,a jogar
+21,2027-01-16,Chelsea,Sunderland,,,,,a jogar
+21,2027-01-16,Coventry,Everton,,,,,a jogar
+21,2027-01-16,Hull,Arsenal,,,,,a jogar
+21,2027-01-16,Liverpool,Crystal Palace,,,,,a jogar
+21,2027-01-16,Man City,Nott'm Forest,,,,,a jogar
+21,2027-01-16,Newcastle,Fulham,,,,,a jogar
+21,2027-01-16,Tottenham,Leeds,,,,,a jogar
+22,2027-01-23,Arsenal,Newcastle,,,,,a jogar
+22,2027-01-23,Brighton,Man City,,,,,a jogar
+22,2027-01-23,Crystal Palace,Tottenham,,,,,a jogar
+22,2027-01-23,Everton,Brentford,,,,,a jogar
+22,2027-01-23,Fulham,Aston Villa,,,,,a jogar
+22,2027-01-23,Ipswich,Hull,,,,,a jogar
+22,2027-01-23,Leeds,Chelsea,,,,,a jogar
+22,2027-01-23,Man United,Liverpool,,,,,a jogar
+22,2027-01-23,Nott'm Forest,Bournemouth,,,,,a jogar
+22,2027-01-23,Sunderland,Coventry,,,,,a jogar
+23,2027-01-30,Aston Villa,Ipswich,,,,,a jogar
+23,2027-01-30,Bournemouth,Fulham,,,,,a jogar
+23,2027-01-30,Brentford,Man United,,,,,a jogar
+23,2027-01-30,Chelsea,Nott'm Forest,,,,,a jogar
+23,2027-01-30,Coventry,Leeds,,,,,a jogar
+23,2027-01-30,Hull,Crystal Palace,,,,,a jogar
+23,2027-01-30,Liverpool,Everton,,,,,a jogar
+23,2027-01-30,Man City,Arsenal,,,,,a jogar
+23,2027-01-30,Newcastle,Brighton,,,,,a jogar
+23,2027-01-30,Tottenham,Sunderland,,,,,a jogar
+24,2027-02-06,Arsenal,Liverpool,,,,,a jogar
+24,2027-02-06,Brighton,Hull,,,,,a jogar
+24,2027-02-06,Crystal Palace,Coventry,,,,,a jogar
+24,2027-02-06,Everton,Newcastle,,,,,a jogar
+24,2027-02-06,Fulham,Man City,,,,,a jogar
+24,2027-02-06,Ipswich,Tottenham,,,,,a jogar
+24,2027-02-06,Leeds,Bournemouth,,,,,a jogar
+24,2027-02-06,Man United,Chelsea,,,,,a jogar
+24,2027-02-06,Nott'm Forest,Brentford,,,,,a jogar
+24,2027-02-06,Sunderland,Aston Villa,,,,,a jogar
+25,2027-02-10,Aston Villa,Bournemouth,,,,,a jogar
+25,2027-02-10,Coventry,Liverpool,,,,,a jogar
+25,2027-02-10,Crystal Palace,Brentford,,,,,a jogar
+25,2027-02-10,Everton,Leeds,,,,,a jogar
+25,2027-02-10,Fulham,Nott'm Forest,,,,,a jogar
+25,2027-02-10,Hull,Sunderland,,,,,a jogar
+25,2027-02-10,Ipswich,Arsenal,,,,,a jogar
+25,2027-02-10,Man United,Brighton,,,,,a jogar
+25,2027-02-10,Newcastle,Chelsea,,,,,a jogar
+25,2027-02-10,Tottenham,Man City,,,,,a jogar
+26,2027-02-20,Arsenal,Fulham,,,,,a jogar
+26,2027-02-20,Bournemouth,Crystal Palace,,,,,a jogar
+26,2027-02-20,Brentford,Coventry,,,,,a jogar
+26,2027-02-20,Brighton,Tottenham,,,,,a jogar
+26,2027-02-20,Chelsea,Ipswich,,,,,a jogar
+26,2027-02-20,Leeds,Aston Villa,,,,,a jogar
+26,2027-02-20,Liverpool,Hull,,,,,a jogar
+26,2027-02-20,Man City,Newcastle,,,,,a jogar
+26,2027-02-20,Nott'm Forest,Man United,,,,,a jogar
+26,2027-02-20,Sunderland,Everton,,,,,a jogar
+27,2027-02-27,Aston Villa,Chelsea,,,,,a jogar
+27,2027-02-27,Coventry,Bournemouth,,,,,a jogar
+27,2027-02-27,Crystal Palace,Sunderland,,,,,a jogar
+27,2027-02-27,Everton,Nott'm Forest,,,,,a jogar
+27,2027-02-27,Fulham,Leeds,,,,,a jogar
+27,2027-02-27,Hull,Man City,,,,,a jogar
+27,2027-02-27,Ipswich,Brighton,,,,,a jogar
+27,2027-02-27,Man United,Arsenal,,,,,a jogar
+27,2027-02-27,Newcastle,Brentford,,,,,a jogar
+27,2027-02-27,Tottenham,Liverpool,,,,,a jogar
+28,2027-03-03,Arsenal,Crystal Palace,,,,,a jogar
+28,2027-03-03,Bournemouth,Tottenham,,,,,a jogar
+28,2027-03-03,Brentford,Ipswich,,,,,a jogar
+28,2027-03-03,Brighton,Fulham,,,,,a jogar
+28,2027-03-03,Chelsea,Coventry,,,,,a jogar
+28,2027-03-03,Leeds,Hull,,,,,a jogar
+28,2027-03-03,Liverpool,Aston Villa,,,,,a jogar
+28,2027-03-03,Man City,Everton,,,,,a jogar
+28,2027-03-03,Nott'm Forest,Newcastle,,,,,a jogar
+28,2027-03-03,Sunderland,Man United,,,,,a jogar
+29,2027-03-13,Aston Villa,Hull,,,,,a jogar
+29,2027-03-13,Bournemouth,Newcastle,,,,,a jogar
+29,2027-03-13,Chelsea,Arsenal,,,,,a jogar
+29,2027-03-13,Coventry,Man City,,,,,a jogar
+29,2027-03-13,Crystal Palace,Fulham,,,,,a jogar
+29,2027-03-13,Leeds,Brighton,,,,,a jogar
+29,2027-03-13,Liverpool,Ipswich,,,,,a jogar
+29,2027-03-13,Man United,Everton,,,,,a jogar
+29,2027-03-13,Sunderland,Brentford,,,,,a jogar
+29,2027-03-13,Tottenham,Nott'm Forest,,,,,a jogar
+30,2027-03-20,Arsenal,Sunderland,,,,,a jogar
+30,2027-03-20,Brentford,Bournemouth,,,,,a jogar
+30,2027-03-20,Brighton,Coventry,,,,,a jogar
+30,2027-03-20,Everton,Tottenham,,,,,a jogar
+30,2027-03-20,Fulham,Liverpool,,,,,a jogar
+30,2027-03-20,Hull,Chelsea,,,,,a jogar
+30,2027-03-20,Ipswich,Crystal Palace,,,,,a jogar
+30,2027-03-20,Man City,Man United,,,,,a jogar
+30,2027-03-20,Newcastle,Leeds,,,,,a jogar
+30,2027-03-20,Nott'm Forest,Aston Villa,,,,,a jogar
+31,2027-04-10,Aston Villa,Brighton,,,,,a jogar
+31,2027-04-10,Bournemouth,Man City,,,,,a jogar
+31,2027-04-10,Chelsea,Fulham,,,,,a jogar
+31,2027-04-10,Coventry,Arsenal,,,,,a jogar
+31,2027-04-10,Crystal Palace,Everton,,,,,a jogar
+31,2027-04-10,Leeds,Nott'm Forest,,,,,a jogar
+31,2027-04-10,Liverpool,Newcastle,,,,,a jogar
+31,2027-04-10,Man United,Hull,,,,,a jogar
+31,2027-04-10,Sunderland,Ipswich,,,,,a jogar
+31,2027-04-10,Tottenham,Brentford,,,,,a jogar
+32,2027-04-17,Arsenal,Aston Villa,,,,,a jogar
+32,2027-04-17,Brentford,Leeds,,,,,a jogar
+32,2027-04-17,Brighton,Chelsea,,,,,a jogar
+32,2027-04-17,Everton,Bournemouth,,,,,a jogar
+32,2027-04-17,Fulham,Sunderland,,,,,a jogar
+32,2027-04-17,Hull,Coventry,,,,,a jogar
+32,2027-04-17,Ipswich,Man United,,,,,a jogar
+32,2027-04-17,Man City,Crystal Palace,,,,,a jogar
+32,2027-04-17,Newcastle,Tottenham,,,,,a jogar
+32,2027-04-17,Nott'm Forest,Liverpool,,,,,a jogar
+33,2027-04-24,Aston Villa,Coventry,,,,,a jogar
+33,2027-04-24,Bournemouth,Arsenal,,,,,a jogar
+33,2027-04-24,Brentford,Fulham,,,,,a jogar
+33,2027-04-24,Chelsea,Man City,,,,,a jogar
+33,2027-04-24,Everton,Brighton,,,,,a jogar
+33,2027-04-24,Leeds,Liverpool,,,,,a jogar
+33,2027-04-24,Man United,Crystal Palace,,,,,a jogar
+33,2027-04-24,Newcastle,Ipswich,,,,,a jogar
+33,2027-04-24,Nott'm Forest,Sunderland,,,,,a jogar
+33,2027-04-24,Tottenham,Hull,,,,,a jogar
+34,2027-05-01,Arsenal,Tottenham,,,,,a jogar
+34,2027-05-01,Brighton,Nott'm Forest,,,,,a jogar
+34,2027-05-01,Coventry,Man United,,,,,a jogar
+34,2027-05-01,Crystal Palace,Aston Villa,,,,,a jogar
+34,2027-05-01,Fulham,Everton,,,,,a jogar
+34,2027-05-01,Hull,Bournemouth,,,,,a jogar
+34,2027-05-01,Ipswich,Leeds,,,,,a jogar
+34,2027-05-01,Liverpool,Chelsea,,,,,a jogar
+34,2027-05-01,Man City,Brentford,,,,,a jogar
+34,2027-05-01,Sunderland,Newcastle,,,,,a jogar
+35,2027-05-08,Bournemouth,Man United,,,,,a jogar
+35,2027-05-08,Brentford,Aston Villa,,,,,a jogar
+35,2027-05-08,Brighton,Sunderland,,,,,a jogar
+35,2027-05-08,Everton,Hull,,,,,a jogar
+35,2027-05-08,Fulham,Ipswich,,,,,a jogar
+35,2027-05-08,Leeds,Arsenal,,,,,a jogar
+35,2027-05-08,Man City,Liverpool,,,,,a jogar
+35,2027-05-08,Newcastle,Coventry,,,,,a jogar
+35,2027-05-08,Nott'm Forest,Crystal Palace,,,,,a jogar
+35,2027-05-08,Tottenham,Chelsea,,,,,a jogar
+36,2027-05-15,Arsenal,Nott'm Forest,,,,,a jogar
+36,2027-05-15,Aston Villa,Newcastle,,,,,a jogar
+36,2027-05-15,Chelsea,Everton,,,,,a jogar
+36,2027-05-15,Coventry,Tottenham,,,,,a jogar
+36,2027-05-15,Crystal Palace,Brighton,,,,,a jogar
+36,2027-05-15,Hull,Fulham,,,,,a jogar
+36,2027-05-15,Ipswich,Man City,,,,,a jogar
+36,2027-05-15,Liverpool,Brentford,,,,,a jogar
+36,2027-05-15,Man United,Leeds,,,,,a jogar
+36,2027-05-15,Sunderland,Bournemouth,,,,,a jogar
+37,2027-05-23,Bournemouth,Chelsea,,,,,a jogar
+37,2027-05-23,Brentford,Hull,,,,,a jogar
+37,2027-05-23,Brighton,Liverpool,,,,,a jogar
+37,2027-05-23,Everton,Arsenal,,,,,a jogar
+37,2027-05-23,Fulham,Coventry,,,,,a jogar
+37,2027-05-23,Leeds,Sunderland,,,,,a jogar
+37,2027-05-23,Man City,Aston Villa,,,,,a jogar
+37,2027-05-23,Newcastle,Crystal Palace,,,,,a jogar
+37,2027-05-23,Nott'm Forest,Ipswich,,,,,a jogar
+37,2027-05-23,Tottenham,Man United,,,,,a jogar
+38,2027-05-30,Arsenal,Brighton,,,,,a jogar
+38,2027-05-30,Aston Villa,Tottenham,,,,,a jogar
+38,2027-05-30,Chelsea,Brentford,,,,,a jogar
+38,2027-05-30,Coventry,Nott'm Forest,,,,,a jogar
+38,2027-05-30,Crystal Palace,Leeds,,,,,a jogar
+38,2027-05-30,Hull,Newcastle,,,,,a jogar
+38,2027-05-30,Ipswich,Everton,,,,,a jogar
+38,2027-05-30,Liverpool,Bournemouth,,,,,a jogar
+38,2027-05-30,Man United,Fulham,,,,,a jogar
+38,2027-05-30,Sunderland,Man City,,,,,a jogar

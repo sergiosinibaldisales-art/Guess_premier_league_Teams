@@ -1,0 +1,19 @@
+# Resultados verificados à mão para cobrir atraso das fontes automáticas.
+# Regra: só entra aqui placar confirmado em 2 sites diferentes (coluna fontes).
+# forcar=True faz este placar SOBRESCREVER o das fontes automáticas (use só para correções).
+home,away,hg,ag,date,fontes,forcar
+Arsenal,Leeds,2,1,2026-10-10,footballwebpages.co.uk; vavel.com,False
+Aston Villa,Brentford,2,2,2026-10-10,footballwebpages.co.uk; vavel.com,False
+Chelsea,Bournemouth,5,1,2026-10-10,footballwebpages.co.uk; vavel.com,False
+Ipswich,Fulham,2,1,2026-10-10,footballwebpages.co.uk; vavel.com,False
+Man United,Tottenham,1,1,2026-10-10,footballwebpages.co.uk; vavel.com; newsx.com,False
+Sunderland,Brighton,0,2,2026-10-10,footballwebpages.co.uk; vavel.com,False
+Crystal Palace,Nott'm Forest,3,1,2026-10-11,footballwebpages.co.uk; vavel.com,False
+Hull,Everton,2,2,2026-10-11,footballwebpages.co.uk; vavel.com,False
+Liverpool,Man City,0,3,2026-10-11,footballwebpages.co.uk; vavel.com; newsx.com,False
+Coventry,Newcastle,4,1,2026-10-12,footballwebpages.co.uk; vavel.com,False
+Brentford,Liverpool,1,2,2026-10-17,footballwebpages.co.uk; vavel.com,False
+Everton,Chelsea,0,2,2026-10-17,footballwebpages.co.uk; vavel.com,False
+Fulham,Hull,1,0,2026-10-17,footballwebpages.co.uk; vavel.com,False
+Man City,Ipswich,3,2,2026-10-17,footballwebpages.co.uk; vavel.com,False
+Newcastle,Aston Villa,0,1,2026-10-17,footballwebpages.co.uk,False
