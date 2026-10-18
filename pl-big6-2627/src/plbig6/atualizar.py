@@ -7,12 +7,16 @@ Gera em data/processed/:
   previsoes_big6.csv     todos os jogos restantes dos Big 6 até a rodada 38
   simulacao.csv          probabilidade de título/top 4 por time
   forcas.csv             ataque/defesa estimados de cada time
+  forcas_escanteios.csv  quanto cada time gera/cede de escanteios
+  (previsoes_big6.csv também traz escanteios esperados e linhas over)
 """
 from __future__ import annotations
 
 import argparse
 
-from . import data, predict, stats
+import pandas as pd
+
+from . import corners, data, predict, stats
 from .config import PROCESSED, SEASON
 from .model import DixonColes
 
@@ -27,6 +31,9 @@ def main(use_network: bool = True, n_sims: int = 10000) -> dict:
 
     tab = stats.table(matches)
     prev = predict.predict_fixtures(model, predict.big6_fixtures(matches))
+    cmodel = corners.CornersModel().fit(corners.training_set(matches, PAST))
+    esc = pd.DataFrame([cmodel.predict(h, a) for h, a in zip(prev.home, prev.away)])
+    prev = pd.concat([prev.reset_index(drop=True), esc], axis=1)
     sim = predict.simulate_season(model, matches, n_sims=n_sims)
 
     matches.to_csv(PROCESSED / f"partidas_{SEASON}.csv", index=False)
@@ -34,6 +41,7 @@ def main(use_network: bool = True, n_sims: int = 10000) -> dict:
     prev.round({c: 4 for c in prev.select_dtypes("number")}).to_csv(PROCESSED / "previsoes_big6.csv", index=False)
     sim.to_csv(PROCESSED / "simulacao.csv")
     model.ratings().round(3).to_csv(PROCESSED / "forcas.csv")
+    cmodel.ratings().round(3).to_csv(PROCESSED / "forcas_escanteios.csv")
 
     played = matches["hg"].notna().sum()
     pend = matches[matches["status"] == "pendente/adiado"]

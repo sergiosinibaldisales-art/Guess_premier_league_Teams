@@ -100,3 +100,24 @@ def test_lineup_without_star_lowers_attack():
     a_weak, _, miss = lineups.team_multipliers("Arsenal", no_saka, players)
     assert a_full == pytest.approx(1.0)
     assert a_weak < 0.9 and not miss
+
+
+def test_corners_model_recovers_order_and_probabilities():
+    from plbig6.corners import CornersModel
+    rng = np.random.default_rng(3)
+    gen = {"A": 0.4, "B": 0.0, "C": -0.4}
+    rows, day = [], pd.Timestamp("2025-08-01")
+    for _ in range(40):
+        for h in gen:
+            for a in gen:
+                if h != a:
+                    rows.append({"date": day, "home": h, "away": a,
+                                 "h_corners": rng.poisson(np.exp(1.6 + gen[h] - gen[a] / 2)),
+                                 "a_corners": rng.poisson(np.exp(1.5 + gen[a] - gen[h] / 2))})
+        day += pd.Timedelta(days=7)
+    m = CornersModel(l2=0.5).fit(pd.DataFrame(rows))
+    assert m.gen["A"] > m.gen["B"] > m.gen["C"]
+    p = m.predict("A", "C")
+    assert p["esc_home"] > p["esc_away"]
+    assert 0 < p["p_esc_over_9_5"] < 1
+    assert p["p_mais_esc_home"] + p["p_mais_esc_away"] < 1
