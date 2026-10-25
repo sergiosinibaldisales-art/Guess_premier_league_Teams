@@ -31,9 +31,16 @@ def main(use_network: bool = True, n_sims: int = 10000) -> dict:
 
     tab = stats.table(matches)
     prev = predict.predict_fixtures(model, predict.big6_fixtures(matches))
-    cmodel = corners.CornersModel().fit(corners.training_set(matches, PAST))
-    esc = pd.DataFrame([cmodel.predict(h, a) for h, a in zip(prev.home, prev.away)])
-    prev = pd.concat([prev.reset_index(drop=True), esc], axis=1)
+    # Escanteios só existem no football-data.co.uk. Se ele estiver fora, o
+    # treino vem vazio: pulamos o modelo em vez de derrubar a atualização toda.
+    ctrain = corners.training_set(matches, PAST)
+    cmodel = None
+    if len(ctrain):
+        cmodel = corners.CornersModel().fit(ctrain)
+        esc = pd.DataFrame([cmodel.predict(h, a) for h, a in zip(prev.home, prev.away)])
+        prev = pd.concat([prev.reset_index(drop=True), esc], axis=1)
+    else:
+        print("[aviso] sem dados de escanteios; previsões saem só com gols")
     sim = predict.simulate_season(model, matches, n_sims=n_sims)
 
     matches.to_csv(PROCESSED / f"partidas_{SEASON}.csv", index=False)
@@ -41,7 +48,8 @@ def main(use_network: bool = True, n_sims: int = 10000) -> dict:
     prev.round({c: 4 for c in prev.select_dtypes("number")}).to_csv(PROCESSED / "previsoes_big6.csv", index=False)
     sim.to_csv(PROCESSED / "simulacao.csv")
     model.ratings().round(3).to_csv(PROCESSED / "forcas.csv")
-    cmodel.ratings().round(3).to_csv(PROCESSED / "forcas_escanteios.csv")
+    if cmodel is not None:
+        cmodel.ratings().round(3).to_csv(PROCESSED / "forcas_escanteios.csv")
 
     played = matches["hg"].notna().sum()
     pend = matches[matches["status"] == "pendente/adiado"]
