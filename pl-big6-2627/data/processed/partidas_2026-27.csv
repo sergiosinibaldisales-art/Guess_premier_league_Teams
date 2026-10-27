@@ -69,16 +69,16 @@ round,date_original,home,away,hg,ag,date_played,source,h_shots,a_shots,h_sot,a_s
 7,2026-10-18,Leeds,Man United,1,1,2026-10-18,football-data.co.uk,12.0,13.0,5.0,3.0,2.0,3.0,16.0,5.0,2.0,2.0,0.0,0.0,0.0,1.0,D England,2.49,3.35,2.76,1.41034,1.08135,jogado
 7,2026-10-18,Nott'm Forest,Arsenal,0,1,2026-10-18,football-data.co.uk,14.0,9.0,2.0,1.0,8.0,6.0,14.0,8.0,1.0,1.0,0.0,0.0,0.0,0.0,M Oliver,6.55,4.16,1.49,0.74721,0.9151,jogado
 7,2026-10-19,Tottenham,Coventry,3,1,2026-10-19,football-data.co.uk,16.0,12.0,5.0,1.0,4.0,4.0,15.0,14.0,1.0,3.0,0.0,0.0,1.0,0.0,A Madley,1.53,4.47,5.43,0.971825,1.1439,jogado
-8,2026-10-23,Ipswich,Nott'm Forest,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-24,Arsenal,Everton,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-24,Aston Villa,Man City,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-24,Chelsea,Tottenham,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-24,Coventry,Fulham,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-25,Crystal Palace,Newcastle,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-25,Hull,Brentford,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-25,Liverpool,Brighton,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-25,Man United,Bournemouth,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-8,2026-10-25,Sunderland,Leeds,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
+8,2026-10-23,Ipswich,Nott'm Forest,1,1,2026-10-23,football-data.co.uk,7.0,17.0,3.0,5.0,0.0,5.0,9.0,11.0,1.0,1.0,0.0,0.0,1.0,1.0,T Bramall,3.13,3.41,2.23,0.856862,2.75509,jogado
+8,2026-10-24,Arsenal,Everton,2,0,2026-10-24,football-data.co.uk,20.0,8.0,4.0,3.0,12.0,3.0,11.0,13.0,1.0,3.0,0.0,0.0,1.0,0.0,T Harrington,1.34,4.95,8.21,2.28617,0.721815,jogado
+8,2026-10-24,Aston Villa,Man City,2,1,2026-10-24,football-data.co.uk,8.0,15.0,2.0,7.0,4.0,7.0,21.0,17.0,4.0,4.0,0.0,0.0,1.0,0.0,P Bankes,4.47,4.5,1.62,0.645964,2.28542,jogado
+8,2026-10-24,Chelsea,Tottenham,0,2,2026-10-24,football-data.co.uk,7.0,15.0,4.0,4.0,4.0,6.0,14.0,14.0,4.0,3.0,1.0,0.0,0.0,0.0,C Kavanagh,1.86,3.87,3.76,0.460466,0.979641,jogado
+8,2026-10-24,Coventry,Fulham,0,1,2026-10-24,football-data.co.uk,13.0,12.0,2.0,3.0,4.0,6.0,9.0,11.0,0.0,2.0,0.0,0.0,0.0,0.0,A Herczeg,3.29,3.59,2.1,0.402537,0.572746,jogado
+8,2026-10-25,Crystal Palace,Newcastle,0,2,2026-10-25,football-data.co.uk,17.0,10.0,4.0,2.0,7.0,4.0,12.0,10.0,3.0,3.0,0.0,0.0,0.0,0.0,P Tierney,2.55,3.47,2.61,2.02904,1.29755,jogado
+8,2026-10-25,Hull,Brentford,1,1,2026-10-25,football-data.co.uk,12.0,14.0,2.0,6.0,5.0,6.0,10.0,9.0,0.0,1.0,0.0,0.0,1.0,0.0,R Jones,4.86,4.03,1.64,1.93749,1.70706,jogado
+8,2026-10-25,Liverpool,Brighton,2,0,2026-10-25,football-data.co.uk,13.0,17.0,4.0,1.0,4.0,2.0,13.0,9.0,0.0,2.0,0.0,0.0,2.0,0.0,S Barrott,1.96,3.82,3.45,1.2818,1.31352,jogado
+8,2026-10-25,Man United,Bournemouth,0,3,2026-10-25,football-data.co.uk,17.0,10.0,5.0,4.0,5.0,4.0,13.0,17.0,4.0,1.0,0.0,0.0,0.0,2.0,J Gillett,2.4,3.41,2.8,0.84372,2.56254,jogado
+8,2026-10-25,Sunderland,Leeds,0,0,2026-10-25,football-data.co.uk,15.0,11.0,4.0,4.0,4.0,5.0,10.0,14.0,1.0,2.0,0.0,0.0,0.0,0.0,S Attwell,2.64,3.12,2.77,1.02357,1.06511,jogado
 9,2026-10-31,Aston Villa,Fulham,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
 9,2026-10-31,Bournemouth,Leeds,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
 9,2026-10-31,Brentford,Nott'm Forest,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
