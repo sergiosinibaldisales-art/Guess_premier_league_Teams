@@ -137,13 +137,30 @@ def season_matches(season: str = SEASON, use_network: bool = True) -> pd.DataFra
 
     if use_network:
         xg = _try("understat (xG)", understat.load, season)
+        if xg is None:
+            # understat fora do ar: reaproveita o xG já salvo na última rodada
+            # boa, em vez de gravar o arquivo sem as colunas h_xg/a_xg.
+            xg = _previous_xg(season)
         if xg is not None:
-            base = base.merge(xg.drop(columns="date").drop_duplicates(KEY), on=KEY, how="left")
+            base = base.merge(xg.drop(columns="date", errors="ignore").drop_duplicates(KEY),
+                              on=KEY, how="left")
 
     base["date_played"] = pd.to_datetime(base["date_played"]).fillna(
         base["date_original"].where(base["hg"].notna()))
     base["status"] = _status(base)
     return base.sort_values(["round", "date_original", "home"]).reset_index(drop=True)
+
+
+def _previous_xg(season: str) -> pd.DataFrame | None:
+    """xG (h_xg/a_xg) do partidas_<season>.csv já salvo, ou None se não houver."""
+    path = config.PROCESSED / f"partidas_{season}.csv"
+    if not path.exists():
+        return None
+    old = pd.read_csv(path)
+    if not {"h_xg", "a_xg"} <= set(old.columns):
+        return None
+    print("[aviso] usando xG salvo anteriormente (jogos novos ficam sem xG)")
+    return old[KEY + ["h_xg", "a_xg"]].dropna(subset=["h_xg", "a_xg"], how="all")
 
 
 def _status(df: pd.DataFrame) -> pd.Series:
