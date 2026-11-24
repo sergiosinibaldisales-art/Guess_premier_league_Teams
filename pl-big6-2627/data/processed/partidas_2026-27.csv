@@ -99,16 +99,16 @@ round,date_original,home,away,hg,ag,date_played,source,h_shots,a_shots,h_sot,a_s
 10,2026-11-07,Man United,Aston Villa,4,4,2026-11-08,football-data.co.uk,26.0,12.0,9.0,6.0,8.0,1.0,18.0,9.0,1.0,1.0,0.0,0.0,2.0,2.0,C Kavanagh,1.97,3.95,3.31,,,jogado
 10,2026-11-07,Nott'm Forest,Man City,3,1,2026-11-07,football-data.co.uk,11.0,12.0,5.0,4.0,3.0,7.0,13.0,7.0,0.0,2.0,0.0,0.0,2.0,0.0,S Barrott,5.02,4.1,1.62,,,jogado
 10,2026-11-07,Sunderland,Chelsea,1,0,2026-11-08,football-data.co.uk,9.0,10.0,2.0,4.0,2.0,2.0,17.0,8.0,5.0,4.0,0.0,0.0,1.0,0.0,J Gillett,3.0,3.43,2.27,,,jogado
-11,2026-11-21,Aston Villa,Sunderland,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Bournemouth,Nott'm Forest,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Brentford,Everton,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Chelsea,Leeds,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Coventry,Crystal Palace,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Hull,Brighton,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Liverpool,Man United,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Man City,Fulham,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Newcastle,Arsenal,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
-11,2026-11-21,Tottenham,Ipswich,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
+11,2026-11-21,Aston Villa,Sunderland,0,0,2026-11-21,football-data.co.uk,19.0,7.0,7.0,1.0,7.0,2.0,15.0,20.0,2.0,2.0,0.0,0.0,0.0,0.0,A Madley,1.7,3.91,4.6,,,jogado
+11,2026-11-21,Bournemouth,Nott'm Forest,2,0,2026-11-21,football-data.co.uk,19.0,18.0,7.0,1.0,6.0,4.0,13.0,15.0,1.0,3.0,0.0,0.0,2.0,0.0,A Herczeg,2.04,3.37,3.61,,,jogado
+11,2026-11-21,Brentford,Everton,4,0,2026-11-23,football-data.co.uk,21.0,4.0,7.0,2.0,6.0,3.0,8.0,9.0,0.0,1.0,0.0,1.0,2.0,0.0,C Pawson,2.1,3.43,3.41,,,jogado
+11,2026-11-21,Chelsea,Leeds,1,4,2026-11-21,football-data.co.uk,14.0,21.0,3.0,8.0,3.0,2.0,6.0,16.0,1.0,3.0,0.0,0.0,1.0,1.0,M Oliver,1.95,3.6,3.71,,,jogado
+11,2026-11-21,Coventry,Crystal Palace,3,2,2026-11-21,football-data.co.uk,11.0,14.0,7.0,5.0,4.0,6.0,12.0,14.0,1.0,2.0,0.0,0.0,2.0,2.0,D England,2.47,3.48,2.72,,,jogado
+11,2026-11-21,Hull,Brighton,2,0,2026-11-22,football-data.co.uk,11.0,15.0,5.0,8.0,3.0,4.0,7.0,17.0,2.0,4.0,0.0,1.0,0.0,0.0,P Bankes,6.31,4.47,1.48,,,jogado
+11,2026-11-21,Liverpool,Man United,4,0,2026-11-22,football-data.co.uk,28.0,10.0,11.0,3.0,15.0,5.0,15.0,7.0,1.0,0.0,0.0,1.0,2.0,0.0,S Barrott,1.76,4.12,4.01,,,jogado
+11,2026-11-21,Man City,Fulham,1,1,2026-11-21,football-data.co.uk,15.0,5.0,3.0,4.0,8.0,6.0,8.0,11.0,1.0,3.0,0.0,0.0,0.0,1.0,T Bramall,1.36,5.3,7.4,,,jogado
+11,2026-11-21,Newcastle,Arsenal,2,2,2026-11-21,football-data.co.uk,12.0,13.0,3.0,4.0,6.0,3.0,20.0,7.0,3.0,3.0,0.0,0.0,0.0,1.0,C Kavanagh,6.0,4.38,1.51,,,jogado
+11,2026-11-21,Tottenham,Ipswich,2,0,2026-11-21,football-data.co.uk,18.0,11.0,9.0,3.0,8.0,6.0,17.0,17.0,4.0,1.0,0.0,0.0,1.0,0.0,R Jones,1.47,4.67,6.0,,,jogado
 12,2026-11-28,Arsenal,Man City,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
 12,2026-11-28,Brighton,Newcastle,,,,,,,,,,,,,,,,,,,,,,,,,a jogar
 12,2026-11-28,Crystal Palace,Hull,,,,,,,,,,,,,,,,,,,,,,,,,a jogar

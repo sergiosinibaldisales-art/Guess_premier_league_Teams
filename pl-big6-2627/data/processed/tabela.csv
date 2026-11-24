@@ -1,21 +1,21 @@
 team,Pos,J,V,E,D,GP,GC,Pts,SG,Forma
-Arsenal,1,10,9,0,1,15,5,27,10,VVVVV
-Brighton,2,10,7,1,2,26,7,22,19,VVDVV
-Man City,3,10,7,0,3,21,13,21,8,VVDDD
-Liverpool,4,10,5,3,2,14,10,18,4,DVVDV
-Chelsea,5,10,5,1,4,19,16,16,3,VVDVD
-Everton,6,10,4,4,2,12,10,16,2,EDDVV
-Bournemouth,7,10,4,3,3,16,14,15,2,DVVVV
-Brentford,8,10,3,5,2,16,11,14,5,EDEVD
-Leeds,9,10,3,5,2,10,8,14,2,DEEDV
-Aston Villa,10,10,3,4,3,14,17,13,-3,EVVEE
-Tottenham,11,10,3,3,4,10,11,12,-1,EVVVD
-Newcastle,12,10,3,3,4,13,16,12,-3,DDVDE
-Hull,13,10,2,5,3,11,11,11,0,EDEED
-Ipswich,14,10,3,2,5,15,20,11,-5,VDEED
-Fulham,15,10,2,4,4,10,12,10,-2,DVVEE
-Nott'm Forest,16,10,2,3,5,9,13,9,-4,DDEDV
-Coventry,17,10,3,0,7,10,19,9,-9,VDDVD
-Man United,18,10,1,5,4,14,19,8,-5,EEDDE
-Sunderland,19,10,2,2,6,8,17,8,-9,DDEDV
-Crystal Palace,20,10,2,1,7,10,24,7,-14,VDDDD
+Arsenal,1,11,9,1,1,17,7,28,10,VVVVE
+Brighton,2,11,7,1,3,26,9,22,17,VDVVD
+Man City,3,11,7,1,3,22,14,22,8,VDDDE
+Liverpool,4,11,6,3,2,18,10,21,8,VVDVV
+Bournemouth,5,11,5,3,3,18,14,18,4,VVVVV
+Brentford,6,11,4,5,2,20,11,17,9,DEVDV
+Leeds,7,11,4,5,2,14,9,17,5,EEDVV
+Chelsea,8,11,5,1,5,20,20,16,0,VDVDD
+Everton,9,11,4,4,3,12,14,16,-2,DDVVD
+Tottenham,10,11,4,3,4,12,11,15,1,VVVDV
+Hull,11,11,3,5,3,13,11,14,2,DEEDV
+Aston Villa,12,11,3,5,3,14,17,14,-3,VVEEE
+Newcastle,13,11,3,4,4,15,18,13,-3,DVDEE
+Coventry,14,11,4,0,7,13,21,12,-8,DDVDV
+Fulham,15,11,2,5,4,11,13,11,-2,VVEEE
+Ipswich,16,11,3,2,6,15,22,11,-7,DEEDD
+Nott'm Forest,17,11,2,3,6,9,15,9,-6,DEDVD
+Sunderland,18,11,2,3,6,8,17,9,-9,DEDVE
+Man United,19,11,1,5,5,14,23,8,-9,EDDED
+Crystal Palace,20,11,2,1,8,12,27,7,-15,DDDDD
